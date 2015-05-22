@@ -4,6 +4,7 @@
 
 
 > Do More #2 cd back to temp with one command, but not further above that.
+
 `cd ../../../..`
 
 > Do More #3 Find out how to cd to your "home directory" with one command.
