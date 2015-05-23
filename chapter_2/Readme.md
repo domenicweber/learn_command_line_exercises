@@ -1,22 +1,22 @@
 > 1) What directory are you in?
 
-Right now I'm in `.../learn_command_line_exercises/chapter_2` as I just pushed the Readme.md file to Git
+So you run `pwd` Right now I'm in `.../learn_command_line_exercises/chapter_2` as I just pushed the Readme.md file to Git
 
 
 > 2) Are you in the class directory?
 
-No I'm in a sub directory of the Homework directory
+I ran `pwd` again and No I'm in a sub directory of the Homework directory
 
 
 > 3) Are you in your home directory?
 
-Still no, as I'm in the same directory as before
+When I type `pwd` Still no, as I'm in the same directory as before
 
 
 > 4) What directory did you run that command in?
 
 
-`/Users/thoth/workspace/davinci_coders_t2_2015/homework/learn_command_line_exercises/chapter_2` is the full name
+By using `pwd` I have determined I'm in `/Users/thoth/workspace/davinci_coders_t2_2015/homework/learn_command_line_exercises/chapter_2` is the full name
 
 
 > Explain the process for finding the path with your graphical file browser
