@@ -42,3 +42,5 @@ This assumes I'm in the chapter_5 directory so that I only need to `cd temp` to 
 > Can you go to the slash temp slash log directory?
 
 No.  I'm in the chapter_5 directory. There is a temp directory but no log directory so I can't go somewhere if it hasn't been created yet.  Were there a log directory I could type `cd temp/log`
+UPDATE: Jason suggested I go ahead and make the log directory inside the tmp directory.
+To do that I `cd /tmp` then `mkdir log`.  Now it exists so I can go there with `cd /tmp/log`
