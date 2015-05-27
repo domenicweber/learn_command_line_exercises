@@ -26,21 +26,20 @@ Open finder and under favorites find 'thoth' then find and open 'documents'
 Let's find the artwork for iTunes.  `cd Music/iTunes/"Album Artwork"`
 
 
-> Can you cd into the temp directory?
+> 1. Can you cd into the temp directory?
 
 I'm already in the chapter_5 directory after using `mkdir temp` so to get into the temp directory I type `cd temp`
 
-> Why don't we go into the temp directory?
+> 2. Why don't we go into the temp directory?
 
 Well, for that I would type `cd temp`
 
-> Can you go to the slash temp directory?
+> 3. Can you go to the slash temp directory?
 
-This assumes I'm in the chapter_5 directory so that I only need to `cd temp` to get to the temp.  If I were in User/thoth/workspace and typed cd temp it tells me `bash: cd: temp: No such file or directory`
+From anywhere type `cd /tmp` and this will put you into the tmp directory that is automatically created.  
 
 
-> Can you go to the slash temp slash log directory?
+> 4. Can you go to the slash temp slash log directory?
 
-No.  I'm in the chapter_5 directory. There is a temp directory but no log directory so I can't go somewhere if it hasn't been created yet.  Were there a log directory I could type `cd temp/log`
-UPDATE: Jason suggested I go ahead and make the log directory inside the tmp directory.
-To do that I `cd /tmp` then `mkdir log`.  Now it exists so I can go there with `cd /tmp/log`
+There is no log directory in here so I need to create it.  `cd /tmp` then `mkdir log` then `cd log`
+
