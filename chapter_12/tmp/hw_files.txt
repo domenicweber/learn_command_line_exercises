@@ -1,0 +1,58 @@
+Chapter 10
+
+mkdir temp/
+touch temp/iamcool.txt
+
+Chapter 11
+
+mkdir temp
+touch temp/awesome.txt 
+touch temp/newplace
+
+Chapter 12 - remember to make the new file in the chapter directory not the desktop
+
+Chapter 13
+
+mkdir temp/
+
+Chapter 14
+
+mkdir -p temp/something/
+touch temp/uncool.txt temp/iamcool.txt 
+touch temp/neat.txt 
+touch temp/thefourthfile.txt 
+touch temp/something/awesome.txt
+
+Chapter 15
+
+Chapter 15
+
+(echo to ex13.txt is all one command)
+
+echo "I am a fun guy.
+Don't you know why?
+Because I make poems,
+that make babies cry." > ex13.txt
+
+
+echo 'Hi there this is cool.' > ex12.txt
+
+Chapter 16
+
+mkdir temp/
+touch temp/ex12.txt t
+touch temp/ex13.txt
+touch temp/ex14.txt 
+touch temp/uncool.txt
+
+Chapter 17
+
+(note that your output will be different when running the find command in the exercise)
+
+mkdir temp
+touch file_1.txt 
+touch temp/file_2.txt
+
+Chapter 18
+
+mkdir temp/ (edited
