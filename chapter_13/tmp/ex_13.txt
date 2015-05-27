@@ -1,0 +1,127 @@
+oble [12:41 PM] 
+Got a screen shot of the error?
+
+ayoung [12:45 PM] 
+Yes sir, one sec.
+ayoung 
+[12:48 PM] 
+Git message after I push..  
+
+94KB PNG in #t2-2015  • Add comment • Open original 
+
+alkrauskopf [12:50 PM] 
+OK here's my blog beginning. Working on the branding angle before I attempt to say anything meaningful. Suggestions welcomed.  https://allenkrauskopf.wordpress.com/
+Allen Krauskopf
+(by Allen Krauskopf)
+
+jasonnoble [12:50 PM] 
+@ayoung: Did you make some edits on Github.com?
+
+jasonnoble [12:50 PM]
+`git pull --rebase`
+
+jasonnoble [12:50 PM]
+`git push`
+
+ayoung [12:51 PM] 
+Yes, I tried to delete a a homework file.
+
+jasonnoble [12:52 PM] 
+Ok, run those two commands ^^^^
+
+ayoung [12:54 PM] 
+says: Cannot pull with rebase: You have unstaged changes.
+Please commit or stash them.
+
+jasonnoble [12:56 PM] 
+`git status`
+
+ayoung [1:00 PM] 
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 4 and 1 different commit each, respectively.
+ (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+ (use "git commit" to conclude merge)
+
+Changes not staged for commit:
+ (use "git add/rm <file>..." to update what will be committed)
+ (use "git checkout -- <file>..." to discard changes in working directory)
+
+    deleted:    ../chapter_5(revised)/temp/README.md
+
+Untracked files:
+ (use "git add <file>..." to include in what will be committed)
+
+    ../chapter_10/
+    ../chapter_11/
+    ../chapter_14/
+    ../chapter_16/
+    ../chapter_17/
+    ../chapter_7/
+    ../chapter_8/
+    ../chapter_9/
+    ../ex12.txt
+    ../ex13.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+NEW MESSAGES
+
+jasonnoble [1:24 PM] 
+`git add -u ../chapter_5*`
+
+jasonnoble [1:24 PM]
+git commit -m 'Removed temp readme'
+
+jasonnoble [1:24 PM]
+git pull --rebase
+
+andrewlampert [1:51 PM] 
+Awesome talk - https://www.youtube.com/watch?v=9LfmrkyP81M
+YouTube
+Confreaks
+RailsConf 2014 - Keynote: Writing Software by David Heinemeier Hansson
+
+
+rfjackson11 [1:54 PM] 
+What command would let you use grep to search all text files on the computer? I tried it with -r but can’t seem to get the syntax right.
+
+andrewlampert [1:56 PM] 
+`grep -r "texthere” .`
+
+andrewlampert [1:56 PM]
+http://stackoverflow.com/questions/1987926/how-do-i-grep-recursively
+
+How do I grep recursively?
+How do i recursively grep all directories and subdirectories ? find . | xargs grep "texthere" *
+
+rfjackson11 [1:57 PM] 
+When I try to add *.txt to only search txt files I get an error message
+
+andrewlampert [1:58 PM] 
+ahhh, I missed that part
+
+ayoung [2:04 PM] 
+Thank you Jason. We fixed the problem.:turtle:
+
+andrewlampert [2:58 PM] 
+Hey @jasonnoble, could you remind me where that list of all the blogs you follow is?
+
+jasonnoble [2:58 PM] 
+It's in the build your brand slide deck
+
+andrewlampert [3:03 PM] 
+Thanks!
+
+domenic [3:04 PM] 
+Hi all, again.  Chapter 12, question 2, “Let’s see what our database.yml looks like?”  Anyone do this, I just ran a search on my hdd for *.yml and I can’t seem to find such a file.
+
+andrewlampert [3:04 PM] 
+It’s just asking how you’d hypothetically find it
+
+jasonnoble [3:05 PM] 
+Assume you have a file named `database.yml`...
+
+domenic [3:06 PM] 
+oh, ok, haha thanks.  Then I would speak with Wharfs accent and say “Computer, find m
