@@ -1,0 +1,11 @@
+Chapter 10
+
+mkdir temp/
+touch temp/iamcool.txt
+
+Chapter 11
+
+mkdir temp
+touch temp/awesome.txt 
+touch temp/newplace
+
