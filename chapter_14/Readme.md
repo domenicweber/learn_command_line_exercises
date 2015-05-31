@@ -8,7 +8,8 @@ I would type `rm development.log` to remove the file
 
 >Can you remove everything in the slash temp slash foo directory?
 
-In the /tmp directory I would type `rm -rf foo` and it would recursively remove everything and the directory
+UPDATED
+In the /tmp directory I would type `rm -rf /foo` and it would recursively remove everything and the directory
 
 
 ##TASKS
