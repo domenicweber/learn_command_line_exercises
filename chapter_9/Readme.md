@@ -9,8 +9,11 @@ In the same chapter_9 directory I typed `touch foo.txt` and wouldn't you know it
 
 > Touch an existing file
 
-ABSOLUTELY NOTHING HAPPENS OMG OMG OMG
 
+####Update
+
+If you run `touch -l <filename>` and the file already exists you will update
+the file with a new time stamp.  I would not consider this an overwrite as it doesn't change anything inside the file
 
 ##Do More
 
