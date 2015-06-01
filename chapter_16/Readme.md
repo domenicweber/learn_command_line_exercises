@@ -8,9 +8,10 @@ Not sure what this has to do with the chapter but I used `ls -lh foo.txt` to see
 To show all the txt files use `ls *.txt` meaning ANY file ending in .txt
 
 
+####UPDATE
+
 > Show me the content of the text files in slash temp.
 
-If I were in the /chapter_16 directory I could type `ls tmp/*` note that if you type `ls tmp/*.*` it will only show you files with extensions.  Not everything.
+We're looking for the actual stuff inside the txt files inside the /tmp directory so
 
-
-
+I'm in the /chatper_16 directory and type `cat tmp/*.txt` and it will print me the contents of all the txt files
