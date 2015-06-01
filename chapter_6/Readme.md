@@ -41,10 +41,11 @@ ls
 
 > What does -iR do?
 
-`ls` means you list the contents in a directory and the `i` parameter shows you some sort of numbered assignment to folder and file that has to do with the size b/c as I write this the number for the Readme.md file is growing.
-Google tells me that -i "Lists file's inode index number" and if you look up inode it's essentially an address system for data blocks in Unix files.
-If I just use `ls -i` it shows me only 2 numbers associated with the Readme.md and tmp directory inside Chapter_6.  
-The `R` shows me everything recursively, meaning everything inside everything so that it lists all the subdirectories as far deep as they go.
+###UPDATED
+
+`ls` means you list the contents in a directory and the `l` stands for long format giving me permissions, time stamps, size of files etc.  When used with
+
+the `R` it shows me everything recursively, meaning everything inside everything so that it lists all the subdirectories as far deep as they go.
 
 
 > What's in the tmp directory?
@@ -59,9 +60,9 @@ I could alternately used `cd tmp` then `ls` go to the tmp directory and then loo
 
 > What files are in your home directory?
 
-Now that just doesn't seem fair.  This implies I know where my "Home" directory is.  As I know it's in the root of the HDD I type `cd /` and now type `ls` This shows me the contents in the root and there is "home"  
+###Update
 
-I can `cd home` or I can `ls /home` both get the same result...showing me there is nothing in the folder
+If I type `cd ` with nothing else it will bring me to my home directory, from here I just type `ls` to see what's inside.  I could also type `ls ~` from anywhere and see the same thing.
 
 > What's in slash temp? 
 
