@@ -1,19 +1,10 @@
 ## Do More
 
+####UPDATE
+
 > Move a file in newplace to somewhere else and back
 
-In the /newplace directory `touch mover.txt`  
-
-Back up: `cd ..` then type `mv newplace a_different_place`
-
-`ls -R` shows /a_different_place/ is now the directory with mover.txt inside of it.
-
-`mv a_different_place newplace` moves the file back from /a_different_place to /newplace
-
-I understand that moving a file is technically creating a new version of it, then deleting the old, 
-I don't understand the logic behind `mv` because technically to move a file means the directory would remain
-and  `mv` literally deletes the old direcotry and builds a new one in it's place. 
-To move a file it seems `cp file.txt <directory where I want file>` is more akin to moving a file than mv
+Type `place1/foo.txt place2/` and you'll move the foo.txt file inside the /place1 directory into the /place2 directory.
 
 ## Questions
 
